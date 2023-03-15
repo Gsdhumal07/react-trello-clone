@@ -26,6 +26,8 @@ export const BoardPage = withRouter(
         };
 
         // Fill empty properties that are important for Board component
+        const onBoard=()= > {
+        }
         const prepareBoard = (board) => ({
             ...board,
             lanes: (board?.lanes || []).map((lane) => ({
